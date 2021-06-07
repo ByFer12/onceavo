@@ -1,0 +1,28 @@
+Inicio
+	var numero
+	var aux1,aux2,aux3,auxi3,aux4, aux5,aux6
+	var cantidad=0
+	mientras(cantidad<=10)
+	numero=aleatorio(0,36)
+	si(numero%2==0)
+		aux1++
+	sino si(numero>12&& numero<25)
+		aux2++
+	sino
+		aux3++
+	sino si(numero>numeroAnterior)
+		auxi3=numero
+	finsi
+		mostrar(El numero es "numero")
+	finMientras
+
+	aux4=15/aux1
+	aux5=aux2/15*100
+	
+	mostrar(Cantidad de impares "aux3")
+	mostrar(el porcentaje de pares son "aux4")
+	mostrar(la catidad de numeros entre 13 y 24 son  "aux2")
+	mostrar(el porcentaje de ceros son "aux6")
+	mostrar(El numero mas grande "auxi3")
+Fin
+	
